@@ -4,13 +4,30 @@
 
 ## Демо
 
-[![Открыть демо](https://img.shields.io/badge/demo-open-0f172a?style=for-the-badge)](https://employers-communication-dashboard.vercel.app/)
+👉 Открыть по [ссылке](https://employers-communication-dashboard.vercel.app/)
 
-Демо: https://employers-communication-dashboard.vercel.app/
+ИЛИ
+
+👉 Открыть по кнопке ниже:
+
+[![Открыть демо](https://img.shields.io/badge/demo-open-0f172a?style=for-the-badge)](https://employers-communication-dashboard.vercel.app/)
 
 ---
 
-## Обзор проекта
+## 📄 Содержание
+
+- 🔍 [Обзор проекта](#обзор-проекта)
+- 🖥️ [Интерфейс системы](#интерфейс-системы)
+- 🧠 [Граф связей](#граф-связей)
+- 🎛️ [Фильтры и детализация](#фильтры-и-детализация)
+- ⚙️ [Стек и архитектура](#стек-и-архитектура)
+- 🧩 [Структура проекта](#структура-проекта)
+- 🛠️ [Как запустить локально](#как-запустить-локально)
+- 🌐 [Деплой](#деплой)
+
+---
+
+## 🔍 Обзор проекта
 
 Дашборд состоит из четырех основных частей:
 
@@ -39,7 +56,7 @@
 
 ---
 
-### Главный экран
+### 🖥️ Интерфейс системы
 
 ![Главный экран dashboard](images/main-dashboard.png)
 
@@ -57,7 +74,7 @@
 
 ---
 
-### Граф связей
+## 🧠 Граф связей
 
 ![Граф и таблица в основном layout](images/dashboard-graph-table.png)
 
@@ -99,7 +116,7 @@
 
 ---
 
-### Фильтры и детализация
+## 🎛️ Фильтры и детализация
 
 ![Фильтрация по префиксу employee ID с выбранным узлом](images/graph-prefix-match-selected.png)
 
@@ -125,7 +142,7 @@
 
 ---
 
-## Стек и архитектура
+## ⚙️ Стек и архитектура
 
 ### Технологии
 
@@ -147,13 +164,14 @@
 
 ### Поток данных
 
----
 
 ```text
 CSV -> FastAPI + pandas -> JSON API -> React -> filters -> graphData -> graph + table
 ```
 
-### Структура проекта
+---
+
+## 🧩 Структура проекта
 
 ```text
 .
@@ -188,7 +206,7 @@ CSV -> FastAPI + pandas -> JSON API -> React -> filters -> graphData -> graph + 
 
 ---
 
-## Как запустить локально
+## 🛠️ Как запустить локально
 
 ### 1. Клонировать репозиторий
 
@@ -241,10 +259,8 @@ Frontend будет доступен по адресу `http://localhost:5173`.
 
 ---
 
-## Деплой
+## 🌐 Деплой
 
-Production-версия опубликована на Vercel и доступна по ссылке:
-
-https://employers-communication-dashboard.vercel.app/
+Production-версия опубликована на Vercel и доступна по [ссылке](https://employers-communication-dashboard.vercel.app/)
 
 Конфигурация деплоя описана в `vercel.json`: frontend собирается в `public`, а backend подключается как serverless API через `api/index.py`.
