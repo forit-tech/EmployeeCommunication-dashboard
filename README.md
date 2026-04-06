@@ -4,13 +4,13 @@
 
 ## Демо
 
-👉 Открыть по [ссылке](https://employers-communication-dashboard.vercel.app/)
+👉 Открыть по [ссылке](https://employeecommunication-dashboard.vercel.app/)
 
 ИЛИ
 
 👉 Открыть по кнопке ниже:
 
-[![Открыть демо](https://img.shields.io/badge/demo-open-0f172a?style=for-the-badge)](https://employers-communication-dashboard.vercel.app/)
+[![Открыть демо](https://img.shields.io/badge/demo-open-0f172a?style=for-the-badge)](https://employeecommunication-dashboard.vercel.app/)
 
 ---
 
@@ -261,6 +261,6 @@ Frontend будет доступен по адресу `http://localhost:5173`.
 
 ## 🌐 Деплой
 
-Production-версия опубликована на Vercel и доступна по [ссылке](https://employers-communication-dashboard.vercel.app/)
+Production-версия опубликована на Vercel и доступна по [ссылке](https://employeecommunication-dashboard.vercel.app/)
 
 Конфигурация деплоя описана в `vercel.json`: frontend собирается в `public`, а backend подключается как serverless API через `api/index.py`.
