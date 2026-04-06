@@ -1,0 +1,36 @@
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+#а это мое
+fordevil.md
+# IDE / system
+.idea/
+.vscode/
+*.iml
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# IDE / system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Environment
+.env
+.env.*
+
+# Optional local artifacts
+coverage/
